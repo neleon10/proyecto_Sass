@@ -1,0 +1,48 @@
+//Header + NAV
+
+/*<header class="header">
+        <nav class="navTop">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Languages</a></li>
+                <li><a href="#">Countries</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </nav>
+    </header>*/
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  height: 9rem;
+  background-color: black;
+  border-radius: 2%;
+}
+
+.navTop {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 5rem;
+
+  ul {
+    
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: rgb(247, 244, 244);
+    font-family: "Marvel", sans-serif;
+    font-size: 1.3rem;
+  }
+
+  a:hover {
+    color: brown;
+  }
+}

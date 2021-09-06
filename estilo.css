@@ -1,0 +1,94 @@
+/*<header class="header">
+        <nav class="navTop">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Languages</a></li>
+                <li><a href="#">Countries</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </nav>
+    </header>*/
+.header {
+  display: flex;
+  justify-content: flex-start;
+  height: 9rem;
+  background-color: black;
+  border-radius: 2%;
+}
+
+.navTop {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 5rem;
+}
+.navTop ul {
+  list-style: none;
+}
+.navTop li {
+  display: inline-block;
+}
+.navTop a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #f7f4f4;
+  font-family: "Marvel", sans-serif;
+  font-size: 1.3rem;
+}
+.navTop a:hover {
+  color: brown;
+}
+
+/*<aside class="barraLateral">
+<ul>
+  <li><a href="#">German</a></li>
+  <li><a href="#">Estonian</a></li>
+  <li><a href="#">Italian</a></li>
+  <li><a href="#">Spanish</a></li>
+  <li><a href="#">More Languages</a></li>
+</ul>
+</aside>*/
+.barraLateral ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.barraLateral a {
+  text-decoration: none;
+  font-family: "Marvel", sans-serif;
+  font-size: 1.3rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Marvel", sans-serif;
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px rgba(116, 115, 115, 0.849);
+  text-align: center;
+  margin: 3rem;
+}
+
+h2 {
+  font-family: "Marvel", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+}
+.mainContainer h3 {
+  font-family: "Marvel", sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+}
+.mainContainer p {
+  text-align: justify;
+}
+
+/*# sourceMappingURL=estilo.css.map */
